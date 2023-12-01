@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 245, 241);
+}
+
+h1{
+    margin-top: 20px;
+}
+
+h1,h5,h6,.subtitle{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.container > div{
+    min-height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
